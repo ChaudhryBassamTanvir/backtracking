@@ -6,10 +6,6 @@ if (str.length()==0) {
     return;
     
 }
-
-
-
-
     for (int i = 0; i < str.length(); i++) {
         
         char currChar= str.charAt(i);
@@ -19,19 +15,11 @@ if (str.length()==0) {
 
     permutations(newStr, index+1, perm+currChar);
     }
-
-
-
 }
-
-
-
-
-    public static void main(String[] args) {
+public static void main(String[] args) {
       //permutations problems
       
 String str= "ABC";
-
 permutations(str, 0, "");
 
     }
